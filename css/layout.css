@@ -1,0 +1,356 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* section1 the heading and number  */
+
+.section1 {
+  background-color: rgb(222, 236, 236);
+  color: grey;
+}
+
+.container1 {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-top: 0.4vh;
+}
+#number {
+  margin-right: 20px;
+}
+
+/* section 2 book car wash and get the app button   */
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.3vh;
+  cursor: pointer;
+}
+
+.section2-1 {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.section2 i {
+  font-size: 29px;
+  margin-right: 20px;
+  color: rgb(37, 36, 36);
+}
+
+/* section 3 the maine search and logo  */
+
+.section3 {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 88vh;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.s3-but {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.s3-button {
+  padding: 5px 45px;
+  font-size: 23px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.tagline {
+  display: inline-flex;
+  color: white;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: center;
+}
+.searchbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.search input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.search i {
+  padding: 10px 30px;
+  font-size: 21px;
+  color: gray;
+}
+
+.search p {
+  padding-top: 11px;
+  font-size: 20px;
+}
+
+.search-button {
+  background-color: rgb(119, 170, 211);
+  color: white;
+  padding: 10px 60px;
+  font-size: 23px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+
+/* section 4 :- about car washer */
+
+.section4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 228, 232);
+}
+
+
+.s4-head{
+    text-align: center;
+    font-size: 40px;
+}
+.blue-pill{
+    margin: auto;
+    width: 7%;
+    background-color: rgb(146, 146, 235);
+    border-radius: 20px;
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.s4-about{
+    display: flex;
+    flex: 70% 30%;
+    justify-content: space-between;
+}
+
+.s4-txt{
+    font-size: 18px;
+    width: 70%;
+}
+.s4-img > img{
+    border-radius: 10px;
+    height: 82%;
+    float: right;
+}
+
+
+
+
+/* section 5 - Why care washer */
+
+.section5{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container5{
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+.box{
+    width: 28%;
+    margin-bottom: 10vh;
+}
+
+.b-icon i{
+    border-radius: 50%;
+    width: 80px;
+    padding: 20px;
+    font-size: 35px;
+    border: 2px solid rgb(146, 146, 235);
+    color: rgb(146, 146, 235);
+}
+
+.bh{
+    font-size: 23px;
+    margin-top: 2vh;
+    bottom: 10px;
+    font-weight: 600;
+    color: rgb(90, 84, 84);
+}
+.b-info{
+    margin-top: 3vh;
+}
+.all-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* section 6 - Our Process */
+
+.section6{
+    background-image: url(../images/process-bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s6-info-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+.s6-box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s6-num p{
+    width: 10vh;
+    height: 10vh;
+    border: 2px solid white;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+}
+.s6-hd{
+    font-size: 25px;
+}
+
+.s6-info{
+    opacity: .7;
+    margin-top: 3vh;
+}
+
+
+/* section 7  - Download our app  */
+
+.section7{
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    line-height: 28px;
+}
+
+.container7{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.s7-info-main{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.s7-info{
+    width: 90%;
+}
+.s7-ib1{
+    width: 90%;
+    font-size: 27px;
+    color: gray;
+    margin-bottom: 8vh;
+}
+
+.s7-ib2{
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.s7-logo img{
+   width: 90%;
+   margin-right: 20vh;
+
+}
+
+.s7-ib3 img{
+    height: 7vh;
+    margin-right: 4vh;
+    margin-top: 4vh;
+}
+
+
+/* section 8 - contact part  */
+.section8{
+    background-color: rgb(34, 21, 21);
+    color: white;
+}
+
+.container8{
+    height: 45vh;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s7-b{
+    width: 25%;
+}
+
+.s7-bh{
+    font-size: 30px;
+}
+
+.s7-bi{
+    width: 80%;
+}
+
+/* footer  */
+
+footer{
+    display: grid;
+    place-items: center;
+    height: 15vh;
+    background-color: rgb(10, 10, 10);
+    color: white;
+
+}
